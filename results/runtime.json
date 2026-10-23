@@ -1,0 +1,48 @@
+{
+  "captured_at_utc": "2026-10-23T00:03:14.832487+00:00",
+  "python": "3.13.15",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "peft": "0.21.2",
+    "bitsandbytes": "0.50.2",
+    "accelerate": "1.15.0",
+    "datasets": "5.0.1",
+    "sacrebleu": "2.6.0"
+  },
+  "cuda_runtime": "13.0",
+  "gpu": "Tesla T4",
+  "gpu_memory_bytes": 15637086208,
+  "source_sha256": {
+    "requirements.txt": "880774a1993734a0f7e8e21392c1e849c9f1d8604bcbd4874975f22260bfbe6b",
+    "requirements-dev.txt": "f5c40d1ccec290095bc432d6e2417ac7e0752a25219467edde30f1a69bcbf9ec",
+    "bala/__init__.py": "d307b6eea78c8baf58ad0fdc5fc886f4b78bfd97fc0676e02f379470e74cc5e7",
+    "bala/dataset.py": "92591aecc5806236d856db61a5d2b1cd02dee3f446276f09e09dd2f30372e477",
+    "bala/features.py": "b3ef63cc8ced377f0ba440b4bdcf7f98f030421a903111865e3b7bf7b7de7c40",
+    "bala/lang.py": "29df09d9159ca9721aabb8b154a82ecc35bfc47be531339dd5a4f87cd06dc2a7",
+    "bala/metrics.py": "aa074046a3109974bac382aa228640c1bae552bc22da19a038035d4eb4c213c5",
+    "bala/prompts.py": "2f59a6853a9d5d5bdf55859636af4e7d2af195e4f7cbf02e3dd01d5604347ee2",
+    "bala/topics.py": "8ad031238e0f33243872fca9b197a23b6270df79861ee9822a07e87033c1153d",
+    "scripts/audit_data.py": "301627dda1f434228408c34720492e809afd2bbeeb33a12572cf439065c61f9c",
+    "scripts/build_colab_notebook.py": "79b487bf8316e2c7e4c8e00f7cbea71ce822fb54733b739dc296630a8ef99944",
+    "scripts/chat.py": "2ded02659332685746fb66865b1396676430e66a1b5a076bd0342cd3db034d3b",
+    "scripts/check_readiness.py": "ac939adf9a17d4cc8f04f282562d17937a36c85e80dbe2eaf87df8b3cf65988d",
+    "scripts/collect_drafts.py": "e2605f1de2e3aa535eadcab0a0ceaad0d5a91176e4ac0c856b740e61d71c04fe",
+    "scripts/evaluate.py": "71166bc06f5e805fabd6da294bb01364a6a1d128ef8d386ae1eb0c624a7dddbf",
+    "scripts/generate_drafts.py": "d4c8411a644e99ae2f0fec83968548e2da5c3d7075e657fbee14b1bbea2bfd47",
+    "scripts/package_colab.py": "2f55b56ef3319f00426c092c9c784f15b56410487ba4a77bd2a19fe20ccc1db8",
+    "scripts/prepare_data.py": "095f59a1402c981d59c5d3ec51c24750dd73beebc479a484bde5061bf748b22c",
+    "scripts/record_run.py": "995b075227c9a59a6410891a936a475a7d51c9ce5af175e1b06d4a7d55b22d60",
+    "scripts/review.py": "516ba9f80db773164752bded2937294e69b584ed4f9b2c71cbe1ab0a6ccbd269",
+    "scripts/score_manual.py": "feefa9ff61ed71e398ab69d15fc3b61a1665a73163e8001002523087ff2b2320",
+    "scripts/train_qlora.py": "5c0c187020ab9d9f7fa1d54ba9b1975d8066f5735f78527ed83ab639aad29fc2"
+  },
+  "checkpoints": [
+    {
+      "global_step": 48,
+      "epoch": 3.0,
+      "best_metric": 1.972973346710205,
+      "best_model_checkpoint": "/content/bala-qlora/outputs/checkpoints/checkpoint-48"
+    }
+  ]
+}

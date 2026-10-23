@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "method": "bilingual-topic-holdout",
+  "seed": 42,
+  "val_target": 0.1,
+  "test_target": 0.1,
+  "sha256": {
+    "data/seed_examples.jsonl": "dca6b750925a96e470246117a814bfd33f7b0f28552387f8ad7e298c9b140724",
+    "data/reviewed.jsonl": "cde4563d32bc108eb5b3de4ceb3d46935ba13412f25bcca3f11f7906050d85b4",
+    "data/splits/train.jsonl": "f2df26b35a497b238827ddabf060a337fd0f68aac0244ca37b41a538dd40f606",
+    "data/splits/val.jsonl": "ffc6622546afa1ff3d3975d9a2a6f2dae98bd4efc4b96349fa0735dcfad3a51c",
+    "data/splits/test.jsonl": "b327dc19af2b8db37112bc66c3785fd2e829a4969ed8827a0954dcb093e709a2"
+  },
+  "prompt_sha256": "2f59a6853a9d5d5bdf55859636af4e7d2af195e4f7cbf02e3dd01d5604347ee2",
+  "topics_sha256": "8ad031238e0f33243872fca9b197a23b6270df79861ee9822a07e87033c1153d"
+}

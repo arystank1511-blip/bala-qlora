@@ -1,0 +1,117 @@
+{
+  "status": "ready_for_gpu_training",
+  "review_kind": "ai",
+  "reviewer": "Codex",
+  "scope": "dataset_checks_only",
+  "model_quality_evaluated_by_this_check": false,
+  "human_review_completed": false,
+  "examples": 310,
+  "languages": {
+    "kk": 155,
+    "ru": 155
+  },
+  "draft_review": {
+    "keep": 42,
+    "fix": 258,
+    "drop": 0,
+    "pending": 0,
+    "edited": 258,
+    "review_kind": "ai",
+    "reviewer": "Codex"
+  },
+  "seed_review": {
+    "keep": 3,
+    "fix": 7
+  },
+  "splits": {
+    "train": {
+      "count": 242,
+      "languages": {
+        "kk": 121,
+        "ru": 121
+      },
+      "topics": [
+        "addition",
+        "buoyancy",
+        "caspian",
+        "computers",
+        "day-night",
+        "dinosaurs",
+        "electricity",
+        "food-chain",
+        "fractions",
+        "friction",
+        "geometry",
+        "germs",
+        "gravity",
+        "kazakhstan",
+        "length",
+        "light",
+        "magnets",
+        "maps",
+        "money",
+        "moon-phases",
+        "multiplication",
+        "photosynthesis",
+        "rainbow",
+        "recycling",
+        "robots",
+        "seasons",
+        "skeleton",
+        "sleep",
+        "sound",
+        "stars",
+        "steppe",
+        "teeth",
+        "time",
+        "vitamins",
+        "water-cycle",
+        "water-saving",
+        "water-states"
+      ]
+    },
+    "val": {
+      "count": 36,
+      "languages": {
+        "kk": 18,
+        "ru": 18
+      },
+      "topics": [
+        "digestion",
+        "migration",
+        "pollination",
+        "solar-system",
+        "volcanoes"
+      ]
+    },
+    "test": {
+      "count": 32,
+      "languages": {
+        "kk": 16,
+        "ru": 16
+      },
+      "topics": [
+        "breathing",
+        "division",
+        "earthquakes",
+        "heart",
+        "internet",
+        "leaves"
+      ]
+    }
+  },
+  "tokenizer": "Qwen/Qwen2.5-1.5B-Instruct",
+  "max_length": 512,
+  "max_tokens_by_language": {
+    "kk": 430,
+    "ru": 236
+  },
+  "max_answer_tokens_by_language": {
+    "kk": 233,
+    "ru": 135
+  },
+  "validation_errors": 0,
+  "truncated_examples": 0,
+  "topic_overlap_between_splits": 0,
+  "manifest_sha256": "b37301f97e5fe95737898c14d715d06c75e4ffce2d75377818954b00be431193"
+}

@@ -1,0 +1,56 @@
+{
+  "all": {
+    "base": {
+      "lang_ok": 1.0,
+      "sentences_ok": 0.8125,
+      "length_ok": 0.9062,
+      "interest_used": 0.5312,
+      "chrf": 18.8846,
+      "n": 32
+    },
+    "finetuned": {
+      "lang_ok": 1.0,
+      "sentences_ok": 0.9062,
+      "length_ok": 1.0,
+      "interest_used": 0.625,
+      "chrf": 25.0882,
+      "n": 32
+    }
+  },
+  "kk": {
+    "base": {
+      "lang_ok": 1.0,
+      "sentences_ok": 0.6875,
+      "length_ok": 0.875,
+      "interest_used": 0.75,
+      "chrf": 13.1187,
+      "n": 16
+    },
+    "finetuned": {
+      "lang_ok": 1.0,
+      "sentences_ok": 0.8125,
+      "length_ok": 1.0,
+      "interest_used": 0.5625,
+      "chrf": 20.0972,
+      "n": 16
+    }
+  },
+  "ru": {
+    "base": {
+      "lang_ok": 1.0,
+      "sentences_ok": 0.9375,
+      "length_ok": 0.9375,
+      "interest_used": 0.3125,
+      "chrf": 24.6505,
+      "n": 16
+    },
+    "finetuned": {
+      "lang_ok": 1.0,
+      "sentences_ok": 1.0,
+      "length_ok": 1.0,
+      "interest_used": 0.6875,
+      "chrf": 30.0792,
+      "n": 16
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Training and evaluation (GPU, e.g. Google Colab T4). Colab already has torch.
+# Versions exercised together in the local CPU smoke check. Full NF4/CUDA
+# execution still needs verification in Colab; torch comes from its runtime.
+transformers==4.57.6
+peft==0.21.2
+bitsandbytes==0.50.2
+accelerate==1.15.0
+datasets==5.0.1
+sacrebleu==2.6.0
+
+# Drafting examples with Claude (scripts/generate_drafts.py)
+anthropic>=0.75
+pydantic>=2.7

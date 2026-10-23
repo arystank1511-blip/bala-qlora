@@ -1,0 +1,13 @@
+{
+  "args": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter": "/content/bala-qlora/outputs/adapter",
+    "split": "test",
+    "limit": 0,
+    "max_new_tokens": 320,
+    "seed": 7
+  },
+  "test_examples": 32,
+  "base_limit_hits": 4,
+  "finetuned_limit_hits": 4
+}

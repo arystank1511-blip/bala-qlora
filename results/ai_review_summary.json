@@ -1,0 +1,32 @@
+{
+  "review_kind": "ai",
+  "reviewer": "Codex",
+  "blind_decision_sha256": {
+    "blind_kk_review.jsonl": "165b7924310801a7704612270fb89bf0b923b615f0190628d26af9ecec96c60a",
+    "blind_ru_review.jsonl": "5b4b5c124f64a1c39ecf12a61d203755aad966c15e3be7e857097eccf3aa5785"
+  },
+  "unblinded_at_utc": "2026-10-23T00:09:43.100955+00:00",
+  "human_review_completed": false,
+  "limitations": "One AI reviewer per language; not independent expert assessment. Preference is not correctness.",
+  "all": {
+    "finetuned": 5,
+    "base": 6,
+    "tie": 21,
+    "unrated": 0,
+    "finetuned_win_rate": 0.156
+  },
+  "kk": {
+    "finetuned": 0,
+    "base": 0,
+    "tie": 16,
+    "unrated": 0,
+    "finetuned_win_rate": 0.0
+  },
+  "ru": {
+    "finetuned": 5,
+    "base": 6,
+    "tie": 5,
+    "unrated": 0,
+    "finetuned_win_rate": 0.312
+  }
+}

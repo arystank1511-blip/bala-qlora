@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.venv/
+outputs/
+# Raw drafts and the review sheet stay local; reviewed.jsonl and splits are committed.
+data/drafts.jsonl
+data/review.csv
+.env
+.env.*
+work/
+*.zip

@@ -1,0 +1,7 @@
+# Manifests and run snapshots hash exact bytes; keep them identical on every OS.
+data/** -text
+*.py -text
+*.ipynb -text
+results/** -text
+# Generated A/B CSV contains verbatim model output, including trailing spaces.
+results/manual_review.csv -whitespace
